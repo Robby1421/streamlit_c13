@@ -6,9 +6,8 @@ import streamlit as st
 
 def load_data():
     # Load the data
-    data = pd.read_csv(
-        "micro_world.csv",
-        encoding='ISO-8859-1'
+    data = pd.read_excel(
+        "cc_clean.xlsx"
     )
     return data
 
